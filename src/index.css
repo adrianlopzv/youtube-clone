@@ -62,6 +62,15 @@ a {
   transition: all 0.3s ease;
 }
 
+.portfolio-link {
+  color: white;
+  cursor: pointer;
+}
+
+.portfolio-link:hover {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 900px) {
   .category-btn{
     margin: 10px;
